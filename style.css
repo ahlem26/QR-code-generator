@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("resources/qa-bg.jpg");
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-input {
+    display: flex;
+    background-color: #020617;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border: #2640a9 2px solid;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.div-input input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+    width: 500px;
+}
+
+.div-input input::placeholder {
+    color: #fff;
+}
+
+.div-input button {
+    background-color: #2640a9;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.7rem 2.3rem;
+    cursor: pointer;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+#logo {
+    margin: 50px auto;
+}
+
+.div-circle {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.div-qr-code {
+    background-color: #fff;
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    background-color: #2640a9;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem 2.3rem;
+    cursor: pointer;
+}
