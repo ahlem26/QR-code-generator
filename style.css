@@ -93,3 +93,9 @@ body {
     padding: 1rem 2.3rem;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .div-input input {
+        width: 300px;
+    }
+}
