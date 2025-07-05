@@ -13,14 +13,20 @@
 
 <body>
   <div class="div1">
-    <img src="resources/Logo.svg">
+    <picture>
+      <source srcset="resources/Logo-small.svg" media="(max-width: 768px)">
+      <img src="resources/Logo.svg" alt="Logo">
+    </picture>
     <div class="div-input">
       <input type="text" placeholder="Enter an url">
       <button id="generate-btn">QR code</button>
     </div>
   </div>
   <div class="div2">
-    <img id="logo" src="resources/Logo.svg">
+    <picture>
+      <source srcset="resources/Logo-small.svg" media="(max-width: 768px)">
+      <img id="logo" src="resources/Logo.svg" alt="Logo">
+    </picture>
     <div class="div-circle">
       <div class="div-qr-code"></div>
     </div>

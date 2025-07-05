@@ -95,7 +95,15 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-image: url("resources/qa-bg-small.jpg");
+    }
+
     .div-input input {
         width: 300px;
+    }
+
+    .div-input button {
+        padding: 0.7rem 2rem;
     }
 }
